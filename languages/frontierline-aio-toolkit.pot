@@ -1,0 +1,146 @@
+# Copyright (C) 2026 Frontier Line Co., Ltd.
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Frontierline AIO Toolkit 0.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/frontierline-aio-toolkit\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-28T14:13:29+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: frontierline-aio-toolkit\n"
+
+#. Plugin Name of the plugin
+#: frontierline-aio-toolkit.php
+msgid "Frontierline AIO Toolkit"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: frontierline-aio-toolkit.php
+msgid "https://frontierline.co.jp/plugins/aio-toolkit/"
+msgstr ""
+
+#. Description of the plugin
+#: frontierline-aio-toolkit.php
+msgid "Optimize your site for LLMs and AI search: auto-generate llms.txt and llms-full.txt, allow major AI crawlers in robots.txt, and inject JSON-LD structured data."
+msgstr ""
+
+#. Author of the plugin
+#: frontierline-aio-toolkit.php
+msgid "Frontier Line Co., Ltd."
+msgstr ""
+
+#. Author URI of the plugin
+#: frontierline-aio-toolkit.php
+msgid "https://frontierline.co.jp/"
+msgstr ""
+
+#: admin/partials/settings-page.php:17
+#: includes/class-settings.php:56
+#: includes/class-settings.php:57
+msgid "AIO Toolkit"
+msgstr ""
+
+#: admin/partials/settings-page.php:18
+msgid "LLM & AI search optimization for your site."
+msgstr ""
+
+#. translators: 1: llms.txt URL, 2: llms-full.txt URL
+#: admin/partials/settings-page.php:43
+#, php-format
+msgid "Feeds: %1$s and %2$s"
+msgstr ""
+
+#: includes/class-settings.php:34
+msgid "Basic"
+msgstr ""
+
+#: includes/class-settings.php:35
+msgid "llms.txt"
+msgstr ""
+
+#: includes/class-settings.php:36
+msgid "robots.txt"
+msgstr ""
+
+#: includes/class-settings.php:37
+msgid "JSON-LD"
+msgstr ""
+
+#: includes/class-settings.php:72
+msgid "Settings"
+msgstr ""
+
+#: includes/class-settings.php:116
+msgid "Site information"
+msgstr ""
+
+#: includes/class-settings.php:117
+msgid "Site name"
+msgstr ""
+
+#: includes/class-settings.php:118
+msgid "Site summary"
+msgstr ""
+
+#: includes/class-settings.php:119
+msgid "Company info"
+msgstr ""
+
+#: includes/class-settings.php:122
+msgid "LLM feeds"
+msgstr ""
+
+#: includes/class-settings.php:123
+msgid "Enable llms.txt"
+msgstr ""
+
+#: includes/class-settings.php:124
+msgid "Enable llms-full.txt"
+msgstr ""
+
+#: includes/class-settings.php:125
+msgid "llms-full.txt max size (KB)"
+msgstr ""
+
+#: includes/class-settings.php:128
+msgid "AI crawlers"
+msgstr ""
+
+#: includes/class-settings.php:129
+msgid "Allow AI crawlers in robots.txt"
+msgstr ""
+
+#: includes/class-settings.php:132
+msgid "Structured data"
+msgstr ""
+
+#: includes/class-settings.php:133
+msgid "Enable JSON-LD output"
+msgstr ""
+
+#: includes/class-settings.php:134
+msgid "Organization name"
+msgstr ""
+
+#: includes/class-settings.php:135
+msgid "Organization logo URL"
+msgstr ""
+
+#: includes/class-settings.php:142
+msgid "Adds Allow rules for major AI crawlers to your virtual robots.txt."
+msgstr ""
+
+#. translators: %s: comma separated list of detected SEO plugin names.
+#: includes/class-settings.php:179
+#, php-format
+msgid "%s already outputs schema.org markup. Keeping both is valid, but you can turn JSON-LD off here to avoid duplicate structured data."
+msgstr ""
+
+#: includes/class-settings.php:227
+msgid "Enabled"
+msgstr ""

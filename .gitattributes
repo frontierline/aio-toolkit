@@ -1,0 +1,14 @@
+# WordPress.org / SVN は LF が前提。Windows で編集しても LF で保存させる。
+* text=auto eol=lf
+
+# バイナリ（改行変換の対象外にする）
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.zip binary
+*.mo  binary
+
+# GitHub の言語判定・差分表示の調整
+*.pot linguist-generated=true
+languages/* linguist-vendored=true
